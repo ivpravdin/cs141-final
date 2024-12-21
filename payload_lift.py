@@ -77,12 +77,12 @@ navigate_wait(x=0, y=-0.3, z=0.4, speed=0.1, frame_id='aruco_119')
 print('Move 2 complete')
 
 # Lift 10 cm above
-navigate_wait(x=0, y=0, z=0.1, frame_id='body')
+navigate_wait(x=0, y=0, z=0.1, frame_id='aruco_119')
 print('Move 3 complete')
 
 # Move above the aruco map 
 tel = get_telemetry(frame_id='body')
-navigate_wait(x=0, y=0.3, z=tel.z, frame_id='body')
+navigate_wait(x=0, y=0.3, z=tel.z, frame_id='aruco_119')
 print('Move 4 complete')
 
 rospy.sleep(30)
