@@ -6,7 +6,7 @@
 - payload_lift.py: autonomous flight file
 
 ## Setup:
-Instructions for physically assembling the drone and updating firmware can be found within the [documentation](https://clover.coex.tech/en/) for the COEX Clover drone, which includes Raspberry Pi image with a pre-configured Wi-Fi access point named `clover-xxxx`. This image and other additional resources are available on [GitHub](https://github.com/CopterExpress/clover).
+The COEX Clover 4 drone in the lab is already assembled and has the needed files loaded on, but if necessary, instructions for physically assembling the drone and updating firmware can be found within its [documentation](https://clover.coex.tech/en/) documentation. Additional resources, including a Raspberry Pi image with a pre-configured Wi-Fi access point named `clover-xxxx`, are available on [GitHub](https://github.com/CopterExpress/clover).
 
 ## Running
 _As a side note, ensure the drone's LiPo battery is fully charged before running._
